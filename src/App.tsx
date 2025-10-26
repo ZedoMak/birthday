@@ -99,6 +99,16 @@ export default function App() {
           >
             To my amazing bestie, the one who makes every day brighter! 🎉
           </motion.p>
+          <h1 
+            className="mb-6 bg-gradient-to-r from-pink-400 via-purple-400 to-pink-400 bg-clip-text text-transparent"
+            style={{ 
+              fontFamily: "'Pacifico', cursive",
+              fontSize: '2rem',
+              lineHeight: '1.2'
+            }}
+          >
+            Officially 20
+          </h1>
 
           <motion.div
             className="flex gap-4 justify-center flex-wrap"
@@ -158,6 +168,7 @@ export default function App() {
           >
             Messages Just For You
           </h2>
+          
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
@@ -229,13 +240,13 @@ export default function App() {
             />
             <MemoryCard
               title="Late Night When we used to spy on your crush"
-              memory="we used to spy on him and talk about him and it was so fun and we used to laugh a lot and it was so cool⭐"
+              memory="we used to sit around library and watch him through window and talk about him and it was so fun and we used to laugh a lot and it was so cool⭐"
               icon={<Star size={40} />}
               delay={0.2}
             />
             <MemoryCard
               title="The day we became really close"
-              memory="I know we started to become really close day by day. Those last days of school were epic. we became three (Mekdi) and that was so fun and I really enjoyed living that time! 💃"
+              memory="I know we started to become really close day by day. Those last days of school were epic. we became three (Mekdi was added) and that was so fun and I really enjoyed living that time! 💃"
               icon={<Music2 size={40} />}
               delay={0.4}
             />
@@ -287,7 +298,7 @@ export default function App() {
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.2, delay: index * 0.1 }}
+                transition={{ duration: 0.2, delay: 0.5 * 0.1 }}
                 whileHover={{ scale: 1.1, rotate: index % 2 === 0 ? 3 : -3 }}
                 className="relative overflow-hidden rounded-3xl aspect-square border-4 border-white shadow-xl"
               >
@@ -426,6 +437,16 @@ export default function App() {
             transition={{ delay: 0.5 }}
           >
             With all my love, always and forever 💕
+          </motion.p>
+          <motion.p
+            className="mt-16 text-pink-400"
+            style={{ fontFamily: "'Dancing Script', cursive", fontSize: '1.5rem' }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.5 }}
+          >
+            (i would wrote all of this in amharic but my keyboard betrayed me 😭🤦‍♀️)
           </motion.p>
         </motion.div>
       </section>
