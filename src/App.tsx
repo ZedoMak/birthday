@@ -446,7 +446,7 @@ export default function App() {
             viewport={{ once: true }}
             transition={{ delay: 0.5 }}
           >
-            (i would wrote all of this in amharic but my keyboard betrayed me 😭🤦‍♀️)
+            (i would've wrote all of this in amharic but my keyboard betrayed me 😭🤦‍♀️)
           </motion.p>
         </motion.div>
       </section>
