@@ -252,7 +252,7 @@ export default function App() {
             />
             <MemoryCard
               title="The last day dinner we ate at Tenae"
-              memory="It was my first time that i got out of gibi and ate with someone and actually had fun.. I don't know, but each time i am with you i feel special and appreciated and thanks for being in my life."
+              memory="It was my first time that i got out of gibi and ate with someone and actually had fun.. I don't know, but each time i am with you i feel special and appreciated and thanks for being in my life. (and that day is the day i knew you like gursha😂)"
               icon={<Heart size={40} />}
               delay={0}
             />
