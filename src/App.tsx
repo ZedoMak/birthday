@@ -299,7 +299,7 @@ export default function App() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.2, delay: 0.5 * 0.1 }}
-                whileHover={{ scale: 1.4, rotate: index % 2 === 0 ? 4 : -4 }}
+                whileHover={{ scale: 1.2, rotate: index % 2 === 0 ? 4 : -4 }}
                 className="relative overflow-hidden rounded-3xl aspect-square border-4 border-white shadow-xl"
               >
                 <img
