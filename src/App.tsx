@@ -287,7 +287,7 @@ export default function App() {
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                transition={{ duration: 0.2, delay: index * 0.1 }}
                 whileHover={{ scale: 1.1, rotate: index % 2 === 0 ? 3 : -3 }}
                 className="relative overflow-hidden rounded-3xl aspect-square border-4 border-white shadow-xl"
               >
